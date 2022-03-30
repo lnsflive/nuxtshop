@@ -12,7 +12,7 @@
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
     "get-shopify-fragment-types": "node ./apollo/schemaQuery.mjs",
-    "deploy": "layer0 deploy"
+    "deploy": "layer0 deploy --site=nuxtshop"
   },
   "devDependencies": {
     "@apollo/client": "^3.5.6",
